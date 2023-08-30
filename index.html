@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
 <body>
     <h2>Password Generator</h2>
@@ -25,8 +28,10 @@
             <input type="checkbox" id="passSymbol"><label for="forSymbol">Include Symbols</label>
         </div>
 
-        <label for="">Strength</label>
-
+        <div class="strength">
+            <label for="">Strength</label>
+            <div id="strengthIndicator">so</div>
+        </div>
         <button id="genPass">Generate Password</button>
     </div>
     <script src="./script.js"></script>
