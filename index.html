@@ -9,13 +9,12 @@
 <body>
     <h2>Password Generator</h2>
     <div class="password">
-        <input type="text"><button id="forCopy">Copy</button>
+        <input type="text" id="passText"><button id="copyBtn"><img src="./assets/copy-regular.svg" alt="copy" id="copyImg"></button>
     </div>
     
     <div class="container">
-        <label for="passLength">Password Length</label>
-        <input type="range" min="2" max="10" value="5" id="passLength" >
-
+        <label for="passLength">Password Length<span id="passLengText">7</span></label>
+        <input type="range" min="2" max="20" value="7" id="passLength">
         <div class="checkBoxes">
             <input type="checkbox" id="passUp"><label for="forUpper">Include Uppercase Letters</label>
             <br>

@@ -1,13 +1,31 @@
 h2{
     width: fit-content;
-    margin: auto;
+    margin: 8% auto 0 auto;
 }
 .password{
-    width: fit-content;
+    width: 20%;
+    padding: 8px;
+    display: flex;
+    gap: 60px;
     margin: 20px auto;
+    border: 1px solid black;
+}
+#passText{
+    /* width: 80%; */
+    /* height: 100%; */
+    border: none;
+}
+#copyImg{
+    width: 18px;
+}
+#copyBtn{
+    border: none;
+    /* background-color: none;
+     */
+    /* margin-left: 20px; */
 }
 .container{
-    width: fit-content;
+    width: 20%;
     margin: auto;
     display: flex;
     flex-direction: column;
