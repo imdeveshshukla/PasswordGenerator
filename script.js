@@ -5,3 +5,5 @@ console.log("Your lucky numbers:");
 for (const num of array) {
   console.log(String.fromCodePoint(num));
 }
+
+//flex1
