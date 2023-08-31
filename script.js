@@ -7,3 +7,4 @@ for (const num of array) {
 }
 
 //flex1
+//i have headache so i just want to flex
