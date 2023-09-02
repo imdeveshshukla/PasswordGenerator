@@ -45,6 +45,14 @@ function findStrength(){
   else  strengthIndicator.style = 'background-color:red';
 }
 
+function copyPass() {
+  let str = passText.value;
+  navigator.clipboard.writeText(str).then(() => {
+    alert('Content copied to clipboard');
+  },() => {
+    console.error('Failed to copy');
+  });
+}
 
 function generatePassword() {
   let randomFunctions = [];
