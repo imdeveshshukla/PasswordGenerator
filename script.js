@@ -78,3 +78,6 @@ function generatePassword() {
   findStrength();
   passText.value = password;
 }
+
+
+//Flex1
