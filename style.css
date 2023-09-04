@@ -29,8 +29,12 @@ h2{
 }
 #copyImg {
     width: 18px;
-    fill: white;
+    /* fill: white; */
     background-color: rgb(24, 9, 24);
+}
+#copyImg:hover{
+    transition: 0.4s;
+    transform:scale(1.2);
 }
 #copyBtn{
     border: none;
